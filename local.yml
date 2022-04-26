@@ -5,6 +5,6 @@
 
   tasks:
    - name: Install Vagrant
-     package:
-        name: htop
+     apt:
+       deb: https://releases.hashicorp.com/vagrant/2.2.19/vagrant_2.2.19_i686.deb
        
