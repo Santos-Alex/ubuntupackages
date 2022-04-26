@@ -1,9 +1,10 @@
 ---
- - hosts: localhosts
-   connection: local
-   become: true
+- hosts: localhosts
+  connection: local
+  become: true
 
-   tasks:
+  tasks:
    - name: Install Vagrant
-     apt:
-       deb: https://releases.hashicorp.com/vagrant/2.2.19/vagrant_2.2.19_i686.deb
+     package:
+        name: htop
+       
